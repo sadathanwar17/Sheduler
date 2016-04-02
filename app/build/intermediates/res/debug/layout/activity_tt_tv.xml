@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_weight=".20"
+        android:id="@+id/tv1"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_weight=".20"
+        android:id="@+id/tv2"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_weight=".60"
+        android:id="@+id/tv3"
+        android:textStyle="italic"/>
+
+</LinearLayout><!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/layout/activity_tt_tv.xml -->

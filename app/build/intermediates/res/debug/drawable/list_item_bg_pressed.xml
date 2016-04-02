@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <gradient
+        android:startColor="#3D3B3B"
+        android:endColor="#3D3B3B"
+        android:angle="90" />
+</shape><!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/drawable/list_item_bg_pressed.xml -->

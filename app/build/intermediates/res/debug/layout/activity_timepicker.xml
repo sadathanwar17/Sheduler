@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <android.widget.EditText
+        android:id="@+id/txtTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".30"
+        android:focusable="false"
+        android:hint="From"
+        android:onClick="setTime2"/>
+
+    <android.widget.EditText
+        android:id="@+id/txtTime2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".30"
+        android:focusable="false"
+        android:hint="To"
+        android:onClick="setTime3"/>
+
+    <android.widget.EditText
+        android:id="@+id/txtSet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".40"
+        android:hint="Description!!!"/>
+
+    <!-- <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Save"
+         android:onClick="Save"
+         android:minHeight="0dp"
+         android:minWidth="20dp"/> -->
+</LinearLayout>
+<!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/layout/activity_timepicker.xml -->

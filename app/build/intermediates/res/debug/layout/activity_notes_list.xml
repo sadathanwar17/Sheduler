@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.example.annu.sheduler.NotesList">
+
+    <TextView
+        android:id="@+id/noteslisttv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new note"
+        android:onClick="newNote"
+        android:textSize="24dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:clickable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text = "Currently there are no notes"
+        android:textSize="24dp"
+        android:id="@+id/tv"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/list"
+        android:divider="#D3D3D3"
+        android:dividerHeight="1sp"
+        android:footerDividersEnabled="true">
+    </ListView>
+
+</LinearLayout>
+<!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/layout/activity_notes_list.xml -->

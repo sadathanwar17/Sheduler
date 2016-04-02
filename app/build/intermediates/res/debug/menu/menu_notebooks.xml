@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.annu.sheduler.Notebooks">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/bsave"
+        app:showAsAction="always"
+        android:title="Save"/>
+    <item
+        android:id="@+id/bcancel"
+        app:showAsAction="always"
+        android:title="Cancel"/>
+</menu>
+<!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/menu/menu_notebooks.xml -->

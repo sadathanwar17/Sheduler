@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.annu.sheduler"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.annu.sheduler.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".TimeTable" -->
+        <!-- android:label="@string/title_activity_time_table" -->
+        <!-- android:parentActivityName=".MainActivity" > -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value="com.example.annu.sheduler.MainActivity" /> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.example.annu.sheduler.TuesdayHelper"
+            android:label="Tuesday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Tuesday"
+            android:label="Tuesday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.NotesList"
+            android:label="@string/title_activity_notes_list"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.NoteEdit"
+            android:label="Note Edit" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Wednesday"
+            android:label="@string/title_activity_wednesday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Thursday"
+            android:label="@string/title_activity_thursday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Friday"
+            android:label="@string/title_activity_friday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Saturday"
+            android:label="@string/title_activity_saturday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Sunday"
+            android:label="@string/title_activity_sunday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.SundayHelper"
+            android:label="Sunday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.SaturdayHelper"
+            android:label="Saturday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.FridayHelper"
+            android:label="Friday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.ThursdayHelper"
+            android:label="Thursday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.WednesdayHelper"
+            android:label="Wednesday" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.Monday"
+            android:label="Monday&apos;s TimeTable" >
+        </activity>
+        <activity
+            android:name="com.example.annu.sheduler.MondayHelper"
+            android:label="Monday" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".NotebooksMain" -->
+        <!-- android:label="@string/title_activity_notebooks_main" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" > -->
+        <!-- </activity> -->
+        <activity android:name="com.example.annu.sheduler.reminderChooser" >
+        </activity>
+    </application>
+
+</manifest>

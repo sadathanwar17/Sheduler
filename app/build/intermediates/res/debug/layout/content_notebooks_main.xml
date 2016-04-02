@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_notebooks_main"
+    tools:context="com.example.annu.sheduler.NotebooksMain"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text = "Currently there are no notebooks"
+        android:textSize="24dp"
+        android:id="@+id/tv"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/list"
+        android:divider="#D3D3D3"
+        android:dividerHeight="1sp"
+        android:footerDividersEnabled="true">
+    </ListView>
+
+
+</LinearLayout>
+<!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/layout/content_notebooks_main.xml -->

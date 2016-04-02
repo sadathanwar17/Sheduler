@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.annu.sheduler.FridayHelper">
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="save"
+        app:showAsAction="always"/>
+</menu><!-- From: file:/E:/Annu/Android%20src%20files/Sheduler/app/src/main/res/menu/menu_reminder_chooser.xml -->
